@@ -7,8 +7,8 @@
 
 class HealthRecord:
 
-    def __init__(self, id, name, birth_year, gender, height, weight):
-        self.id = id
+    def __init__(self, name, birth_year, gender, height, weight):
+
         self.name = name
         self.birth_year = birth_year
         self.gender = gender
@@ -28,8 +28,7 @@ class HealthRecord:
 
     def to_dict(self):
         return {
-            "id": self.id,
-            "name": self.name,
+                "name": self.name,
             "birth_year": self.birth_year,
             "gender": self.gender,
             "height": self.height,
