@@ -1,22 +1,42 @@
 [
     {
         "id": "P2026-0001",
-        "name": "홍길동",
-        "birth_year": 1995,
+        "name": "장태현",
+        "birth_year": 2004,
         "gender": "남",
-        "height": 175.0,
-        "weight": 72.5,
-        "bmi": 23.67,
-        "status": "과체중"
+        "height": 171.0,
+        "weight": 66.0,
+        "bmi": 22.57,
+        "status": "정상"
     },
     {
         "id": "P2026-0002",
-        "name": "김영희",
-        "birth_year": 1998,
-        "gender": "여",
-        "height": 162.0,
-        "weight": 52.0,
-        "bmi": 19.81,
-        "status": "정상"
+        "name": "전재균",
+        "birth_year": 2002,
+        "gender": "남",
+        "height": 180.0,
+        "weight": 80.0,
+        "bmi": 24.69,
+        "status": "과체중"
+    },
+    {
+        "id": "P2026-0003",
+        "name": "김기범",
+        "birth_year": 2007,
+        "gender": "남",
+        "height": 173.0,
+        "weight": 70.0,
+        "bmi": 23.39,
+        "status": "과체중"
+    },
+    {
+        "id": "P2026-0004",
+        "name": "최민호",
+        "birth_year": 2001,
+        "gender": "남",
+        "height": 172.0,
+        "weight": 79.0,
+        "bmi": 26.7,
+        "status": "비만"
     }
 ]

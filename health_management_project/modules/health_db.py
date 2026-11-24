@@ -14,20 +14,17 @@ from datetime import datetime
 
 
 # 파일에 저장할 항목과 순서
-FIELDS = [
-    "id", "name", "birth_year", "gender",
-    "height", "weight", "bmi", "status"
-]
+FIELDS = []
 
 
 class HealthRecord:
     """한 사람의 기본 정보와 건강 정보를 저장하는 클래스."""
 
-    def __init__(self, id, name, birth_year, gender,
+    def __init__(self, name, birth_year, gender,
                  height, weight, bmi=0.0, status="미계산"):
         """전달받은 정보를 객체에 저장한다."""
 
-        self.id = id
+        
         self.name = name
         self.birth_year = int(birth_year)
         self.gender = gender
@@ -47,7 +44,7 @@ class HealthRecord:
             "name": self.name,
             "birth_year": self.birth_year,
             "gender": self.gender,
-            "height": self.height,
+            "height": self.height,      
             "weight": self.weight,
             "bmi": self.bmi,
             "status": self.status
@@ -71,7 +68,7 @@ class HealthManager:
 
         # 프로젝트 안의 data 폴더
         self.data_folder = os.path.join(project_folder, "data")
-
+    
     def generate_id(self):
         """올해 연도와 순번으로 새 ID를 만든다."""
 
